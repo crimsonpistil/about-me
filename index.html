@@ -94,7 +94,7 @@
     padding: 16px 18px; text-decoration: none; display: block;
     transition: all .2s; position: relative;
   }
-  .project:hover { background: var(--bg3); transform: translateY(-1px); border-color: var(--border2); }
+  a.project:hover { background: var(--bg3); transform: translateY(-1px); border-color: var(--border2); }
   .project-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 6px; flex-wrap: wrap; }
   .project-name { font-family: var(--mono); font-size: 14px; font-weight: 600; color: var(--text); }
   .project-status {
@@ -197,25 +197,23 @@
         <div class="project-meta"><span class="arrow">→</span> hunt.6b74.dev</div>
       </a>
 
-      <a href="#" class="project">
+      <div class="project">
         <div class="project-head">
           <span class="project-name">reveille</span>
-          <span class="project-status status-live">live</span>
         </div>
         <div class="project-desc">Discord bot generating AI-powered daily intel briefs from RSS feeds across military, geopolitical, intelligence, and cyber categories. Running 24/7 on Railway.</div>
         <div class="project-meta"><span class="arrow">→</span> running on Railway</div>
-      </a>
+      </div>
 
 
 
-      <a href="#" class="project">
+      <div class="project">
         <div class="project-head">
           <span class="project-name">home network rebuild</span>
-          <span class="project-status status-live">live</span>
         </div>
         <div class="project-desc">Full home network overhaul with VLAN segmentation (Family / IoT / Guest / Gaming / Security). Protectli VP2420 running OPNsense, TP-Link managed switch, EAP670 Wi-Fi 6 AP, Beelink mini PC running Security Onion + Pi-hole. Zeek and Suricata feeding Elasticsearch + Kibana for full home network visibility.</div>
         <div class="project-meta"><span class="arrow">→</span> running in the rack</div>
-      </a>
+      </div>
 
     </div>
   </section>
@@ -241,7 +239,7 @@
 </main>
 
 <footer>
-  <span><span class="hex-decode" title="6B = 'k', 74 = 't' in ASCII hex">6b74</span> = kt</span>
+  <span><span class="hex-decode" title="6B = 'k', 74 = 't' in ASCII hex">6b74</span></span>
   <span>built with curiosity</span>
 </footer>
 
